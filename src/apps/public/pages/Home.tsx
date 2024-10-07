@@ -1,5 +1,6 @@
+import { Navbar } from '../components'
 import './Home.scss'
 
 export const Home = () => {
-  return <div>Home</div>
+  return <Navbar />
 }
