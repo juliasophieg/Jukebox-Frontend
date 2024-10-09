@@ -1,12 +1,10 @@
-/* Navbar.scss */
-
 .public-navbar {
   display: flex;
   flex-direction: row;
   background: linear-gradient(90deg, #2f1515 0%, #181212 100%);
   height: 100px;
   width: 100vw;
-  padding: 0 80px; //OBS: Unsure about this padding
+  padding: 0 106px;
   justify-content: space-between;
   align-items: center;
 
@@ -22,6 +20,7 @@
   .navbar-links {
     list-style: none;
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     gap: 3rem;
 
@@ -39,15 +38,6 @@
           color: white;
         }
       }
-    }
-    .sign-up {
-      color: var(--color-secondary-container);
-      padding: 1rem 4rem;
-      border: 2px solid;
-      border-radius: 50px;
-      font-family: 'termina', sans-serif;
-      font-weight: 700;
-      font-size: 1rem;
     }
   }
 }

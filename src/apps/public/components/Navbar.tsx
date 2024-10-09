@@ -23,9 +23,9 @@ export const Navbar = () => {
         <li>
           <Link to="#">Login</Link>
         </li>
-        <li>
-          <Link to="#" className="sign-up">Sign Up</Link>
-        </li>
+        <Link to="#" className="cta-button signup">
+          Sign Up
+        </Link>
       </ul>
     </nav>
   )

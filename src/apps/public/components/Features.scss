@@ -1,0 +1,24 @@
+.features {
+  padding: 0 106px;
+
+  .features-content {
+    width: 100%;
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-auto-rows: 1fr;
+      grid-gap: 0.5rem;
+
+      .feature {
+        border-radius: 30px;
+        padding: 20px;
+        aspect-ratio: 1;
+      }
+
+      .blue {
+        background-color: $secondary-container;
+      }
+    }
+  }
+}
