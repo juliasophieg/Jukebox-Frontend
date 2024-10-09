@@ -4,7 +4,7 @@ export const About = () => {
   return (
     <section className="about">
       <div className="about-content">
-        <h2>Who are we?</h2>
+        <h2>Who Are We?</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
