@@ -2,7 +2,7 @@
   padding: 0 106px;
   height: 712px;
   .banner-content {
-    width: 817px;
+    width: 900px;
     display: flex;
     flex-direction: column;
     gap: 3em;
@@ -11,9 +11,10 @@
 
       h1 {
         font-weight: 800;
+        font-size: 64px;
+        line-height: 140%;
         .highlight {
           color: $primary;
-          line-height: 6rem;
         }
       }
       p {

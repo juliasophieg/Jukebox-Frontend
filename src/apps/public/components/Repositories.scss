@@ -1,10 +1,66 @@
 .repositories {
-  padding: 0 106px;
+  padding: 80px 106px;
   background-color: var(--cherry);
   color: white;
-}
 
-.repositories-header {
-  display: flex;
-  justify-content: space-between;
+  .repositories-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 3rem;
+  }
+
+  .accordion {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid white;
+    .accordion-header {
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid white;
+      height: 121px;
+      cursor: pointer;
+
+      .accordion-title {
+        display: flex;
+        align-items: flex-start;
+        gap: 5rem;
+
+        .repository-number {
+          color: rgba(255, 255, 255, 0.75);
+          font-family: Termina;
+          font-size: 25px;
+          font-weight: 500;
+        }
+      }
+      button {
+        background-color: transparent;
+        border: transparent;
+        color: white;
+        font-size: 48px;
+        font-weight: 100;
+        cursor: pointer;
+      }
+    }
+    .accordion-content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0 105px 75px 105px;
+
+      p {
+        width: 526px;
+        font-size: 16px;
+        line-height: 162.5%;
+        letter-spacing: 0.16px;
+      }
+
+      .content-image {
+        width: 200px;
+        height: 200px;
+        background-color: $surface-container;
+      }
+    }
+  }
 }
